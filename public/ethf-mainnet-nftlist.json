@@ -1,0 +1,59 @@
+{
+  "name": "ETHF Mainnet NFT",
+  "version": {
+    "major": 1,
+    "minor": 1,
+    "patch": 2
+  },
+  "keywords": [
+    "ETHF",
+    "tokens",
+    "mainnet"
+  ],
+  "logoURI": "https://www.oriswap.xyz/images/ethf-mainnet-logo.png",
+  "timestamp": "2022-12-22T14:46:35+0000",
+  "tokens": [
+    {
+      "pid": 5,
+      "nftsymbol": "BoredApeYachtClub",
+      "nftaddress": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+      "wnftsymbol": "WBoredApeYachtClub",
+      "wnftaddress": "0xE69D46FF7cE487dEC2613a7c0861367e9F021689",
+      "logoURI": "https://raw.githubusercontent.com/oriswapxyz/tokenlogo/main/nftlogo/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/logo.png"
+    },
+    {
+      "pid": 6,
+      "nftsymbol": "MutantApeYachtClub",
+      "nftaddress": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+      "wnftsymbol": "WMutantApeYachtClub",
+      "wnftaddress": "0x59300A57b9A8be7CdaF43812db79031C4E365f16",
+      "logoURI": "https://raw.githubusercontent.com/oriswapxyz/tokenlogo/main/nftlogo/0x60e4d786628fea6478f785a6d7e704777c86a7c6/logo.png"
+    },
+    {
+      "pid": 7,
+      "nftsymbol": "Azuki",
+      "nftaddress": "0xed5af388653567af2f388e6224dc7c4b3241c544",
+      "wnftsymbol": "WAzuki",
+      "wnftaddress": "0x4613d7CC272aDD610E48Cd6b490854858C20e37B",
+      "logoURI": "https://raw.githubusercontent.com/oriswapxyz/tokenlogo/main/nftlogo/0xed5af388653567af2f388e6224dc7c4b3241c544/logo.png"
+    },
+    {
+      "pid": 8,
+      "nftsymbol": "mfers",
+      "nftaddress": "0x79fcdef22feed20eddacbb2587640e45491b757f",
+      "wnftsymbol": "Wmfers",
+      "wnftaddress": "0x163cE2f63F0b2340CC7B03b27f70e25Fd88f03fc",
+      "logoURI": "https://raw.githubusercontent.com/oriswapxyz/tokenlogo/main/nftlogo/0x79fcdef22feed20eddacbb2587640e45491b757f/logo.png"
+    },
+    {
+      "pid": 9,
+      "nftsymbol": "PlaySkullWorld",
+      "nftaddress": "0x55214b6a6992c6283b8aa8b57f6e1dabee7cafb2",
+      "wnftsymbol": "WPlaySkullWorld",
+      "wnftaddress": "0x7120ed1417056Fa6cD742992a78f5e0d77819fFa",
+      "logoURI": "https://raw.githubusercontent.com/oriswapxyz/tokenlogo/main/nftlogo/0x55214b6a6992c6283b8aa8b57f6e1dabee7cafb2/logo.png"
+    }
+
+  ]
+}
+

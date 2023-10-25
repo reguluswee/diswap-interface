@@ -1,0 +1,154 @@
+{
+  "name": "ETHF Mainnet Tokens",
+  "version": {
+    "major": 1,
+    "minor": 1,
+    "patch": 2
+  },
+  "keywords": [
+    "ETHF",
+    "tokens",
+    "mainnet"
+  ],
+  "logoURI": "https://www.oriswap.xyz/images/ethf-mainnet-logo.png",
+  "timestamp": "2022-12-22T14:46:35+0000",
+  "tokens": [
+    {
+      "name": "FREN Crypto",
+      "chainId": 513100,
+      "symbol": "FREN",
+      "decimals": 18,
+      "address": "0xf81ed9cecFE069984690A30b64c9AAf5c0245C9F",
+      "logoURI": "https://www.oriswap.xyz/images/fren-logo.png"
+    },
+    {
+      "name": "Wrapped ETHF",
+      "chainId": 513100,
+      "symbol": "WETHF",
+      "decimals": 18,
+      "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "logoURI": "https://www.oriswap.xyz/images/4_ETH_color.png"
+    },
+    {
+      "name": "Fitstep Token",
+      "chainId": 513100,
+      "symbol": "FST",
+      "decimals": 18,
+      "address": "0xde3fe799265bbdc0fa87d9ebe35d112887e50279",
+      "logoURI": "https://www.oriswap.xyz/images/fst-logo.png"
+    },
+    {
+      "name": "ETH Token",
+      "chainId": 513100,
+      "symbol": "ETH",
+      "decimals": 18,
+      "address": "0x3eee5d2ed0205f93969a59f7c8597fb614264436",
+      "logoURI": "https://www.oriswap.xyz/images/4_ETH_color.png"
+    },
+    {
+      "name": "BTC Token",
+      "chainId": 513100,
+      "symbol": "BTC",
+      "decimals": 8,
+      "address": "0x5014cfd635bc53d6df109dc7803d7f872ee44696",
+      "logoURI": "https://www.oriswap.xyz/images/5_BTC_color.png"
+    },
+    {
+      "name": "USDT Token",
+      "chainId": 513100,
+      "symbol": "USDT",
+      "decimals": 6,
+      "address": "0x7bf88d2c0e32de92cdaf2d43ccdc23e8edfd5990",
+      "logoURI": "https://www.oriswap.xyz/images/3_USDT_color.png"
+    },
+    {
+      "name": "USDC Token",
+      "chainId": 513100,
+      "symbol": "USDC",
+      "decimals": 6,
+      "address": "0xba1458971f73c4b730a1f09d29713619cda793cf",
+      "logoURI": "https://www.oriswap.xyz/images/54_USDC_color.png"
+    },
+    {
+      "name": "DOGE Token",
+      "chainId": 513100,
+      "symbol": "DOGE",
+      "decimals": 8,
+      "address": "0x16c82b59a784c96d43081bb7ad576f5ce6f222ed",
+      "logoURI": "https://www.oriswap.xyz/images/273_DOGE_color.png"
+    },
+    {
+      "name": "SHIB Token",
+      "chainId": 513100,
+      "symbol": "SHIB",
+      "decimals": 18,
+      "address": "0xbd1563046a90f18127fd39f3481fd8d6ab22877f",
+      "logoURI": "https://www.oriswap.xyz/images/41_SHIB_color.png"
+    },
+    {
+      "name": "ETHW Token",
+      "chainId": 513100,
+      "symbol": "ETHW",
+      "decimals": 18,
+      "address": "0x0c9f28fbdfd79f7c00b805d8c63d053c146d282c",
+      "logoURI": "https://www.oriswap.xyz/images/298_ETHW_color.png"
+    },
+    {
+      "name": "CitexToken",
+      "chainId": 513100,
+      "symbol": "CTT",
+      "decimals": 18,
+      "address": "0xed11c9bcf69fdd2eefd9fe751bfca32f171d53ae",
+      "logoURI": "https://www.oriswap.xyz/images/ctt_color.png"
+    },
+    {
+      "name": "ETC Token",
+      "chainId": 513100,
+      "symbol": "ETC",
+      "decimals": 18,
+      "address": "0x98422ff55f098f37351f2c780da0f3ca0172f118",
+      "logoURI": "https://www.oriswap.xyz/images/281_ETC_color.png"
+    },
+    {
+      "name": "HT Token",
+      "chainId": 513100,
+      "symbol": "HT",
+      "decimals": 18,
+      "address": "0x961c2a34c5f13e6c78fba29fb57221b394246d5e",
+      "logoURI": "https://www.oriswap.xyz/images/8_HT_color.png"
+    },
+    {
+      "name": "FCZZ Token",
+      "chainId": 513100,
+      "symbol": "FCZZ",
+      "decimals": 18,
+      "address": "0x6593900a9BEc57c5B80a12d034d683e2B89b7C99",
+      "logoURI": "https://raw.githubusercontent.com/oriswapxyz/tokenlogo/main/logoimage/0x6593900a9BEc57c5B80a12d034d683e2B89b7C99.svg"
+    },
+    {
+      "name": "USDZ Token",
+      "chainId": 513100,
+      "symbol": "USDZ",
+      "decimals": 18,
+      "address": "0x68934bC0F08e7B93ba0A18fe9a9c35898bFD0d47",
+      "logoURI": "https://raw.githubusercontent.com/oriswapxyz/tokenlogo/main/logoimage/0x4F5aC98995Ccb27ca0d06975fE07B5357d5eF192.svg"
+    },
+    {
+      "name": "StarBlock Token",
+      "chainId": 513100,
+      "symbol": "STB",
+      "decimals": 18,
+      "address": "0x3562Ddf1f5Ce2c02Ef109E9d5A72e2FDB702711D",
+      "logoURI": "https://www.oriswap.xyz/images/stb_color.png"
+    },
+    {
+      "name": "ETHF SWFTC",
+      "chainId": 513100,
+      "symbol": "SWFTC",
+      "decimals": 18,
+      "address": "0x68Fc76E3934A63C70eD87540714A1E08fC9e72d8",
+      "logoURI": "https://raw.githubusercontent.com/oriswapxyz/tokenlogo/main/assets/0x68Fc76E3934A63C70eD87540714A1E08fC9e72d8/logo.png"
+    }
+  ]
+}
+

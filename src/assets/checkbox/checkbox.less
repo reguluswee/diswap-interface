@@ -1,0 +1,92 @@
+@import './common.less';
+
+@label: ~'@{prefix}-label';
+@checked: ~'@{prefix}-checked';
+@disabled: ~'@{prefix}-disabled';
+@partial: ~'@{prefix}-partial';
+@inputBox: ~'@{prefix}-input-box';
+@inputInner: ~'@{prefix}-input-inner';
+
+@content: ~'@{prefix}-content-box';
+
+.@{label} {
+  & :nth-child(n) {
+    vertical-align: middle;
+  }
+}
+.@{label}+.@{label} {
+  margin-left: 18px;
+}
+
+.@{inputBox} {
+  input {
+    display: none;
+  }
+
+  .@{inputInner} {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: @checkbox-size;
+    height: @checkbox-size;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-collapse: separate;
+    margin-right: 5px;
+  }
+}
+
+.@{label}.@{checked} {
+  .@{inputInner}::after {
+    content: '';
+    width: (@checkbox-size / 14) * 5px;
+    height: (@checkbox-size / 14) * 8px;
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    display: table;
+    border: 2px solid @primary-color;
+    border-top: 0;
+    border-left: 0;
+    transform: rotate(45deg) translate(-50%, -50%);
+    transition: border-color 0.6s;
+    clear: both;
+  }
+}
+
+.@{label}.@{disabled} {
+  color: @disabled-color;
+  cursor: no-drop;
+
+  .@{inputBox} {
+    .@{inputInner} {
+      background-color: #ccc;
+      border-color: rgba(0, 0, 0, 0);
+    }
+
+    .@{inputInner}::after {
+      border-color: white !important;
+    }
+  }
+
+  .@{content} {
+    color: inherit !important;
+  }
+}
+
+.@{label}.@{partial} {
+  .@{inputInner}::after {
+    content: '';
+    width: (@checkbox-size / 2);
+    height: (@checkbox-size / 2);
+    background-color: @primary-color;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: table;
+    transform: translate(-50%, -50%);
+    clear: both;
+  }
+}
