@@ -62,11 +62,11 @@ export default function Earn() {
           <CardSection>
             <AutoColumn gap="md">
               <RowBetween>
-                <TYPE.white fontWeight={600}>OriSwapliquidity mining</TYPE.white>
+                <TYPE.white fontWeight={600}>diswapliquidity mining</TYPE.white>
               </RowBetween>
               <RowBetween>
                 <TYPE.white fontSize={14}>
-                  Deposit your Liquidity Provider tokens to receive DOG, the OriSwapprotocol governance token.
+                  Deposit your Liquidity Provider tokens to receive DOG, the Diswapprotocol governance token.
                 </TYPE.white>
               </RowBetween>{' '}
               <ExternalLink

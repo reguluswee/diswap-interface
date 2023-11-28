@@ -153,15 +153,15 @@ export const DOG_CONTRACT = {
 };
 
 export enum TOKEN {
-    DOG = 'ORI',
+    DOG = 'DIS',
     HT = 'HT',
     HETH = 'HETH'
 }
 
 export const TOKEN_IMAGE = {
     [TOKEN.DOG]: Logo,
-    [TOKEN.HT]: 'https://www.oriswap.xyz/static/media/ht-logo.0cedb6d7.png',
-    [TOKEN.HETH]: 'https://graph.oriswap.xyz/static/images/tokens/0x64ff637fb478863b7468bc97d30a5bf3a428a1fd.png',
+    [TOKEN.HT]: 'https://www.diswap.xyz/static/media/ht-logo.0cedb6d7.png',
+    [TOKEN.HETH]: 'https://graph.diswap.xyz/static/images/tokens/0x64ff637fb478863b7468bc97d30a5bf3a428a1fd.png',
 }
 
 export const TOKEN_ADDRESS = {

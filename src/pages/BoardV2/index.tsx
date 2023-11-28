@@ -655,7 +655,7 @@ function getRewardsButton() {
               </DataRow>
               <BalanceWrapper>
                 <TYPE.originBlack fontSize={18} style={{ marginBottom: '1rem' }}>
-                  ORI {t('stakedAndLocked')}
+                  DIS {t('stakedAndLocked')}
                 </TYPE.originBlack>
                 <RowCenter>
                   <TYPE.originBlack fontSize={22} style={{ marginBottom: '0rem' }}>
@@ -833,7 +833,7 @@ function getRewardsButton() {
                 <ReBuyItem>
                   <TYPE.darkGray fontSize={12}>{t('totalRebuyDestory')}</TYPE.darkGray>
                   <TYPE.originBlack fontSize={12}>
-                    <Value value={dogDestory} /> ORI
+                    <Value value={dogDestory} /> DIS
                   </TYPE.originBlack>
                 </ReBuyItem>
                 <ReBuyItem>
@@ -877,7 +877,7 @@ function getRewardsButton() {
                         {t('price')}:$6.158
                       </TYPE.originBlack> */}
                   <TYPE.originBlack fontSize={12} fontWeight={300}>
-                    {t('amount')}:{item.destoryAmount} ORI
+                    {t('amount')}:{item.destoryAmount} DIS
                   </TYPE.originBlack>
                 </RecordColumn>
               </RecordWrapper>
@@ -889,7 +889,7 @@ function getRewardsButton() {
             max={dogBalance}
             decimals={18}
             onClose={handleOnCloseModal}
-            pairOrTokenName={'ORI'}
+            pairOrTokenName={'DIS'}
             onConfirm={onDespositOrWithDrawModalConfirm}
             onError={() => setTransPendingText('')}
           />

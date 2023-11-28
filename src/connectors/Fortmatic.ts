@@ -12,7 +12,7 @@ const CHAIN_ID_NETWORK_ARGUMENT: { readonly [chainId in FormaticSupportedChains]
   [ChainId.KOVAN]: 'kovan',
   [ChainId.HECOMAINNET]: 'HECOMAINNET',
   [ChainId.HECOTESTNET]: 'HECOTESTNET',
-  [ChainId.ETHF]: 'ETHF'
+  [ChainId.ETHF]: 'DIS'
 }
 
 export class FortmaticConnector extends FortmaticConnectorCore {

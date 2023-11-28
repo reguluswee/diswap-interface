@@ -136,11 +136,11 @@ export default function Vote() {
           <CardSection>
             <AutoColumn gap="md">
               <RowBetween>
-                <TYPE.white fontWeight={600}>OriSwapGovernance</TYPE.white>
+                <TYPE.white fontWeight={600}>DiswapGovernance</TYPE.white>
               </RowBetween>
               <RowBetween>
                 <TYPE.white fontSize={14}>
-                  DOG tokens represent voting shares in OriSwap governance. You can vote on each proposal yourself or
+                  DIS tokens represent voting shares in Diswap governance. You can vote on each proposal yourself or
                   delegate your votes to a third party.
                 </TYPE.white>
               </RowBetween>
@@ -149,7 +149,7 @@ export default function Vote() {
                 href="https://uniswap.org/blog/uni"
                 target="_blank"
               >
-                <TYPE.white fontSize={14}>Read more about OriSwap governance</TYPE.white>
+                <TYPE.white fontSize={14}>Read more about Diswap governance</TYPE.white>
               </ExternalLink>
             </AutoColumn>
           </CardSection>

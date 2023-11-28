@@ -10,15 +10,15 @@ import LogoDark from '../../assets/svg/logo_white.png';
 import Row from '../Row';
 import { NavLink } from 'react-router-dom'
 import { ExternalLink, TYPE } from '../../theme';
-import HomeImg from '../../assets/images/nav-icon/home.png';
+// import HomeImg from '../../assets/images/nav-icon/home.png';
 import SwapImg from '../../assets/images/nav-icon/swap.png';
 import PoolImg from '../../assets/images/nav-icon/pool.png';
 import BookImg from '../../assets/images/nav-icon/book.png';
 import ChartsImg from '../../assets/images/nav-icon/charts.png';
-import LpImg from '../../assets/images/nav-icon/lp.png';
+// import LpImg from '../../assets/images/nav-icon/lp.png';
 import MediumImg from '../../assets/images/nav-icon/medium.png';
 import GithubImg from '../../assets/images/nav-icon/github.png';
-import PeopleImg from '../../assets/images/nav-icon/people.png';
+// import PeopleImg from '../../assets/images/nav-icon/people.png';
 import SafeImg from '../../assets/images/nav-icon/safe.png';
 import TelegramImg from '../../assets/images/nav-icon/telegram.png';
 import TwitterImg from '../../assets/images/nav-icon/twitter.png';
@@ -168,7 +168,7 @@ export default function NavDrawer({
     visible,
     onClose,
 }: Props) {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
     const [darkMode, toggleDarkMode] = useDarkModeManager();
     // const isEnglish = i18n.language === 'en-US';
     const [commingSoonVisible, setCommingSoonVisible] = useState(false);
@@ -195,7 +195,7 @@ export default function NavDrawer({
             <LogoImg width="5.6rem" height="3.9rem" src={darkMode ? LogoDark : Logo} alt="logo" />
           </InnerLink>
         </LogoWrapper>
-        <NavLinkWrapper>
+       {/* <NavLinkWrapper>
           <NavRow>
             <Icon src={HomeImg} />
             <InnerLink style={{fontSize: '0.9rem'}} to={'/homepage'}>{t('homepage')}</InnerLink>
@@ -203,13 +203,13 @@ export default function NavDrawer({
           <NavRow>
             <Icon src={LpImg} />
             <InnerLink style={{fontSize: '0.9rem'}} to={'/mining/lp'}>{t('lpmining')}</InnerLink>
-            {/* <CommingSoonButon onClick={() => {setCommingSoonVisible(true)}}>{t('lpmining')}</CommingSoonButon> */}
+             <CommingSoonButon onClick={() => {setCommingSoonVisible(true)}}>{t('lpmining')}</CommingSoonButon>
           </NavRow>
           <NavRow>
             <Icon src={PeopleImg} />
             <InnerLink style={{fontSize: '0.9rem'}} to={'/board/v2'}>{t('boardRoom')}</InnerLink>
           </NavRow>
-        </NavLinkWrapper>
+        </NavLinkWrapper>*/}
         <NavLinkWrapper>
           <NavRow>
             <Icon src={SwapImg} />
@@ -238,35 +238,35 @@ export default function NavDrawer({
         <NavLinkWrapper>
           <NavRow>
             <Icon src={ChartsImg} />
-            <OutterLink href="https://info.oriswap.xyz/">{t('info')}</OutterLink>
+            <OutterLink href="https://info.diswap.xyz/">{t('info')}</OutterLink>
           </NavRow>
           <NavRow>
             <Icon src={BookImg} />
-            <OutterLink href={`/OriSwap_whitepaper_${i18n.language === 'en-US' ? 'EN' : i18n.language === 'zh-CN' ? 'CN' : 'KR'}.pdf`}>
+            <OutterLink href="https://appli.gitbook.io/diswap/">
               {t('whitepaper')}
             </OutterLink>
           </NavRow>
           <NavRow>
             <Icon src={SafeImg} />
-            <OutterLink href={`/OriSwap_audit_report_${i18n.language === 'en-US' ? 'EN' : i18n.language === 'zh-CN' ? 'CN' : 'KR'}.pdf`}>
+            <OutterLink href="https://appli.gitbook.io/diswap/">
               {t('audit')}
             </OutterLink>
           </NavRow>
           <NavRow>
             <Icon src={TelegramImg} />
-            <OutterLink href="https://t.me/oriswap_community">Telegram</OutterLink>
+            <OutterLink href="https://t.me/diswap_community">Telegram</OutterLink>
           </NavRow>
           <NavRow>
             <Icon src={TwitterImg} />
-            <OutterLink href="https://twitter.com/ori_swap">Twitter</OutterLink>
+            <OutterLink href="https://twitter.com/diswap_global">Twitter</OutterLink>
           </NavRow>
           <NavRow>
             <Icon src={MediumImg} />
-            <OutterLink href="https://t.me/oriswap_community">Medium</OutterLink>
+            <OutterLink href="https://medium.com/@diswap_global">Medium</OutterLink>
           </NavRow>
           <NavRow>
             <Icon src={GithubImg} />
-            <OutterLink href="https://github.com/oriswapxyz/oriswap-interface-master">Github</OutterLink>
+            <OutterLink href="https://github.com/reguluswee/diswap-interface">Github</OutterLink>
           </NavRow>
         </NavLinkWrapper>
         <LanguageThemeWrapper>

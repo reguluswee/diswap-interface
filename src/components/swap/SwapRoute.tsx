@@ -20,7 +20,7 @@ export default memo(function SwapRoute({ trade }: { trade: Trade }) {
           <Fragment key={i}>
             <Flex alignItems="end">
               <TYPE.black fontSize={14} color={theme.text1} ml="0.125rem" mr="0.125rem">
-                {isETFChain(chainId) && currency.name === 'Ether' && currency.symbol === 'ETH' ? 'ETHF' : currency.symbol}
+                {isETFChain(chainId) && currency.name === 'Ether' && currency.symbol === 'ETH' ? 'DIS' : currency.symbol}
               </TYPE.black>
             </Flex>
             {isLastItem ? null : <ChevronRight size={12} color={theme.text2} />}

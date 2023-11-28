@@ -98,7 +98,7 @@ export default function useGetNftpoolInfos(nftpoolContract:any,chainId: number,w
                     const realTvl = new BigNumber(poolinfo.amount)
                         .times(nftfloodprice[0])
                     saveItem.realTvl = realTvl.toNumber()
-                    saveItem.tvl = `${realTvl.toFixed(3)} ETHF`
+                    saveItem.tvl = `${realTvl.toFixed(3)} DIS`
                 }
 
                 poolInfoData.push(saveItem);

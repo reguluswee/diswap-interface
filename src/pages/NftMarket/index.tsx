@@ -9,7 +9,7 @@ const StyleIframe = styled.iframe`
     border: none;
 `;
 
-document.domain="oriswap.xyz";
+document.domain="diswap.xyz";
 
 export default function NftMarket() {
     const [isDark] = useDarkModeManager()
@@ -23,7 +23,7 @@ export default function NftMarket() {
             top: '113px',
             height: "100vh"
         }}>
-            <StyleIframe frameBorder="0" src={`https://popnfts.oriswap.xyz/doge/market?theme=${isDark ? 'dark' : 'light'}`} />
+            <StyleIframe frameBorder="0" src={`https://popnfts.diswap.xyz/doge/market?theme=${isDark ? 'dark' : 'light'}`} />
         </AppBody>  
     )
 

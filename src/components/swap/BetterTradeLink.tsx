@@ -42,7 +42,7 @@ export default function BetterTradeLink({ version }: { version: Version }) {
     <VersionLinkContainer>
       There is a better price for this trade on{' '}
       <StyledInternalLink to={linkDestination}>
-        <b>OriSwap{version.toUpperCase()} ↗</b>
+        <b>Diswap{version.toUpperCase()} ↗</b>
       </StyledInternalLink>
     </VersionLinkContainer>
   )
@@ -67,7 +67,7 @@ export function DefaultVersionLink() {
     <VersionLinkContainer>
       Showing {version.toUpperCase()} price.{' '}
       <StyledInternalLink to={linkDestination}>
-        <b>Switch to OriSwap{DEFAULT_VERSION.toUpperCase()} ↗</b>
+        <b>Switch to Diswap{DEFAULT_VERSION.toUpperCase()} ↗</b>
       </StyledInternalLink>
     </VersionLinkContainer>
   )

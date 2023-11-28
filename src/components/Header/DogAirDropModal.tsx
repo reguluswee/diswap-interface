@@ -36,8 +36,8 @@ const DogCard = styled.div`
 
 const LogoWrapper = styled.div`
     display: inline-block;
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 5rem;
     border-radius: 2rem;
     overflow: hidden;
     margin-right: 2.5rem;

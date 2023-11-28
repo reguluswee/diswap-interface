@@ -176,7 +176,7 @@ export default function Pool() {
                     <ResponsiveButtonSecondary
                       as={Link}
                       padding="6px 8px"
-                      to={isETFChain(chainId) ? '/create/ETHF' : '/create/ETH'}
+                      to={isETFChain(chainId) ? '/create/DIS' : '/create/ETH'}
                     >
                       {t('createPair')}
                     </ResponsiveButtonSecondary>
@@ -185,7 +185,7 @@ export default function Pool() {
                       as={Link}
                       padding="6px 8px"
                       borderRadius="12px"
-                      to={isETFChain(chainId) ? '/add/ETHF' : '/add/ETH'}
+                      to={isETFChain(chainId) ? '/add/DIS' : '/add/ETH'}
                     >
                       <Text fontWeight={500} fontSize={`0.75rem`}>
                         {t('addLp')}
@@ -217,7 +217,7 @@ export default function Pool() {
                 <>
                   <ButtonSecondary>
                     <RowBetween>
-                      <ExternalLink href={'https://info.oriswap.xyz/account/' + account}>
+                      <ExternalLink href={'https://info.diswap.xyz/account/' + account}>
                         {t('accountTip')}
                       </ExternalLink>
                       <span> ↗</span>
@@ -247,7 +247,7 @@ export default function Pool() {
 
               <AutoColumn justify={'center'} gap="md">
                 <Text textAlign="center" fontSize={14} style={{ padding: '.5rem 0 .5rem 0' }}>
-                  {hasV1Liquidity ? 'OriSwapV1 liquidity found!' : t('dontSeePool')}{' '}
+                  {hasV1Liquidity ? 'DiswapV1 liquidity found!' : t('dontSeePool')}{' '}
                   <StyledInternalLink id="import-pool-link" to={hasV1Liquidity ? '/migrate/v1' : '/find'}>
                     {hasV1Liquidity ? 'Migrate now.' : t('importIt')}
                   </StyledInternalLink>

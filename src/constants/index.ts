@@ -41,11 +41,11 @@ export const DOG: { [chainId in ChainId]: Token } = {
   [ChainId.KOVAN]: new Token(ChainId.KOVAN, DOG_ADDRESS, 18, 'DOG', 'Uniswap'),
   [ChainId.HECOMAINNET]: new Token(ChainId.HECOMAINNET, DOG_ADDRESS, 18, 'DOG', 'Uniswap'),
   [ChainId.HECOTESTNET]: new Token(ChainId.HECOTESTNET, DOG_ADDRESS, 18, 'DOG', 'Uniswap'),
-  [ChainId.ETHF]: new Token(ChainId.ETHF, DOG_ADDRESS, 18, 'ORI', 'Oriswap Token')
+  [ChainId.ETHF]: new Token(ChainId.ETHF, DOG_ADDRESS, 18, 'DIS', 'Diswap Token')
 }
 
 export const COMMON_CONTRACT_NAMES: { [address: string]: string } = {
-  [DOG_ADDRESS]: 'ORI',
+  [DOG_ADDRESS]: 'DIS',
   [GOVERNANCE_ADDRESS]: 'Governance',
   [TIMELOCK_ADDRESS]: 'Timelock'
 }

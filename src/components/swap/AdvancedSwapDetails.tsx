@@ -109,7 +109,7 @@ export function AdvancedSwapDetails({ trade }: AdvancedSwapDetailsProps) {
           {!showRoute && (
             <AutoColumn style={{ padding: '12px 16px 0 16px' }}>
               <InfoLink
-                href={'https://info.oriswap.xyz/pair/' + trade.route.pairs[0].liquidityToken.address}
+                href={'https://info.diswap.xyz/pair/' + trade.route.pairs[0].liquidityToken.address}
                 target="_blank"
               >
                 {t('viewPair')} ↗

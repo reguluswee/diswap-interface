@@ -353,7 +353,7 @@ const NETWORK_LABELS: { [chainId in ChainId]?: string } = {
   [ChainId.KOVAN]: 'Kovan',
   [ChainId.HECOTESTNET]: 'HecoTest',
   [ChainId.HECOMAINNET]: 'Heco',
-  [ChainId.ETHF]: 'EthereumFair'
+  [ChainId.ETHF]: 'DisChain'
 }
 /*
 const CommingSoonLink = styled.div`
@@ -455,7 +455,7 @@ export default function Header() {
         <Title href="#">
           <StyledNavLink 
               id={`homepage`}
-              to='/homepage'>
+              to='/swap'>
               <UniIcon>
                 <img width={'48px'} src={darkMode ? LogoDark : Logo} alt="logo" />
               </UniIcon>
@@ -463,9 +463,9 @@ export default function Header() {
         </Title>
         <HideSmallMedium>
           <HeaderLinks>
-            <StyledNavLink id={`home-nav`} to={'/homepage'}>
+            {/*<StyledNavLink id={`home-nav`} to={'/homepage'}>
               {t('homepage')}
-            </StyledNavLink>
+            </StyledNavLink>*/}
             <StyledNavLink id={`swap-nav-link`} to={'/swap'}>
               {t('swap')}
             </StyledNavLink>
@@ -482,7 +482,7 @@ export default function Header() {
             >
               {t('pool')}
             </StyledNavLink>
-            <StyledNavLink 
+            {/*<StyledNavLink
               id={`lp-mining`} 
               isActive={(match, { pathname }) =>
                 Boolean(match) ||
@@ -499,7 +499,7 @@ export default function Header() {
               }
               to={'/board/v2'}>
               {t('boardRoom')}
-            </StyledNavLink>
+            </StyledNavLink>*/}
             {/* <CommingSoonButon onClick={() => {setCommingSoonVisible(true)}}>{t('lpmining')}</CommingSoonButon> */}
             {/* <CommingSoonButon onClick={() => {setCommingSoonVisible(true)}}>{t('boardRoom')}</CommingSoonButon> */}
           {/*  <StyledNavLink
@@ -518,7 +518,7 @@ export default function Header() {
             <StyledExternalLink id={`stake-nav-link`} href={'https://openapi.chainge.finance/app?fromChain=BSC&toChain=ETHF&fromToken=USDT&toToken=USDT'}>
               {t('crossChainSwap')}<span style={{ fontSize: '11px' }}>↗</span>
             </StyledExternalLink>
-            <StyledExternalLink id={`stake-nav-link`} href={'https://info.oriswap.xyz'}>
+            <StyledExternalLink id={`stake-nav-link`} href={'https://info.diswap.xyz'}>
               {t('info')} <span style={{ fontSize: '11px' }}>↗</span>
             </StyledExternalLink>
           {/*  <SwitchLanguage
@@ -559,7 +559,7 @@ export default function Header() {
           <HeaderLinks>
             {
               isSwapOrAddLiquidtyPath && (
-                <StyledExternalLink style={{color: 'white'}} id={`stake-nav-link`} href={'https://info.oriswap.xyz'}>
+                <StyledExternalLink style={{color: 'white'}} id={`stake-nav-link`} href={'https://info.diswap.xyz'}>
                   <ImgIcon src={ChartsImg} />
                 </StyledExternalLink>
               )
@@ -588,7 +588,7 @@ export default function Header() {
                 <DOGWrapper onClick={toggleClaimModal}>
                   <DOGAmount active={!!account && !availableClaim} style={{ pointerEvents: 'auto' }}>
                     <TYPE.white padding="0 2px">
-                      {claimTxn && !claimTxn?.receipt ? <Dots>Claiming ORI</Dots> : 'Claim ORI'}
+                      {claimTxn && !claimTxn?.receipt ? <Dots>Claiming DIS</Dots> : 'Claim DIS'}
                     </TYPE.white>
                   </DOGAmount>
                   <CardNoise />
@@ -615,7 +615,7 @@ export default function Header() {
                         </TYPE.white>
                       </HideSmall>
                     )}
-                    ORI
+                    DIS
                   </DOGAmount>
                   <CardNoise />
                 </DOGWrapper>
@@ -625,14 +625,14 @@ export default function Header() {
           <HideSmall>
             {
               account && (
-                <DogButton onClick={() => {setAirdropVisible(true)}}>ORI</DogButton>
+                <DogButton onClick={() => {setAirdropVisible(true)}}>DIS</DogButton>
               )
             }
           </HideSmall>
           <AccountElement active={!!account} style={{ pointerEvents: 'auto' }}>
             {account && userEthBalance ? (
               <BalanceText style={{ flexShrink: 0 }} pl="0.75rem" pr="0.5rem" fontWeight={500}>
-                {userEthBalance?.toSignificant(4)} {chainId && isETFChain(chainId) ? 'ETHF' : 'ETH'}
+                {userEthBalance?.toSignificant(4)} {chainId && isETFChain(chainId) ? 'DIS' : 'ETH'}
               </BalanceText>
             ) : null}
             <Web3Status />
@@ -650,7 +650,7 @@ export default function Header() {
           <ShowSmall>
             {
               account && (
-                <DogButton onClick={() => {setAirdropVisible(true)}}>ORI</DogButton>
+                <DogButton onClick={() => {setAirdropVisible(true)}}>DIS</DogButton>
               )
             }
           </ShowSmall>

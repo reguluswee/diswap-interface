@@ -36,10 +36,10 @@ export default function AddDogToMetaMask({
             type: 'ERC20',
             options: {
                 address: TOKEN_ADDRESS[TOKEN.DOG],
-                symbol: 'ORI',
+                symbol: 'DIS',
                 decimals: 18,
                 image:
-                    'https://graph.oriswap.xyz/static/images/tokens/0x5342F2CEE30ca8a8D1a971C375a3B5E73cF2733B.png'
+                    'https://graph.diswap.xyz/static/images/tokens/0x5342F2CEE30ca8a8D1a971C375a3B5E73cF2733B.png'
             }
         }
 

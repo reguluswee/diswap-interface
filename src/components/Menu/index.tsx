@@ -87,10 +87,12 @@ const MenuItem = styled(ExternalLink)`
   }
 `
 
-const CODE_LINK = 'https://github.com/oriswapxyz/oriswap-interface-master'
+const CODE_LINK = 'https://github.com/reguluswee/diswap-interface'
 
 export default function Menu() {
-  const { t, i18n } = useTranslation()
+
+  const { t } = useTranslation()
+
   const { account } = useActiveWeb3React()
   const hideSomething = true
 
@@ -108,31 +110,31 @@ export default function Menu() {
 
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href={`/OriSwap_whitepaper_${i18n.language === 'en-US' ? 'EN' : i18n.language === 'zh-CN' ? 'CN' : 'KR'}.pdf`}>
+          <MenuItem id="link" href="https://appli.gitbook.io/diswap/">
             <BookOpen size={14} />
             {t('whitepaper')}
           </MenuItem>
-          <MenuItem id="link" href={`/Oriswap_audit_report_${i18n.language === 'en-US' ? 'EN' : i18n.language === 'zh-CN' ? 'CN' : 'KR'}.pdf`}>
+          <MenuItem id="link" href="https://appli.gitbook.io/diswap/">
             <Code size={14} />
             {t('audit')}
           </MenuItem>
-          <MenuItem id="link" href="https://info.oriswap.xyz/">
+          <MenuItem id="link" href="https://info.diswap.xyz/">
             <PieChart size={14} />
             {t('info')}
           </MenuItem>
-          <MenuItem id="link" href="https://t.me/oriswap_community">
+          <MenuItem id="link" href="https://t.me/diswap_community">
             <Send size={14} />
             Telegram
           </MenuItem>
-          <MenuItem id="link" href="https://twitter.com/ori_swap">
+          <MenuItem id="link" href="https://twitter.com/diswap_global">
             <Twitter size={14} />
             Twitter
           </MenuItem>
-          <MenuItem id="link" href="https://t.me/oriswap_community">
+          <MenuItem id="link" href="https://medium.com/@diswap_global">
             <Rss size={14} />
             Medium
           </MenuItem>
-          <MenuItem id="link" href="https://github.com/oriswapxyz/oriswap-interface-master">
+          <MenuItem id="link" href="https://github.com/reguluswee/diswap-interface">
             <GitHub size={14} />
             Github
           </MenuItem>

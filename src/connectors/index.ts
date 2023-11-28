@@ -61,8 +61,8 @@ export const portis = new PortisConnector({
 // mainnet only
 export const walletlink = new WalletLinkConnector({
          url: NETWORK_URL,
-         appName: 'Oriswap',
-         appLogoUrl: 'https://www.oriswap.xyz/static/media/logo.b250d791.png'
+         appName: 'Diswap',
+         appLogoUrl: 'https://www.diswap.xyz/static/media/logo.b250d791.png'
        })
 
 //okx

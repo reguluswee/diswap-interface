@@ -588,10 +588,10 @@ export default function RemoveLiquidity({
                         ) : oneCurrencyIsWETH ? (
                           <StyledInternalLink
                             to={`/remove/${
-                              currencyA && currencyEquals(currencyA, WETH[chainId]) ? isETFChain(chainId) ? 'ETHF' : 'ETH' : currencyIdA
-                            }/${currencyB && currencyEquals(currencyB, WETH[chainId]) ? isETFChain(chainId) ? 'ETHF' : 'ETH' : currencyIdB}`}
+                              currencyA && currencyEquals(currencyA, WETH[chainId]) ? isETFChain(chainId) ? 'DIS' : 'ETH' : currencyIdA
+                            }/${currencyB && currencyEquals(currencyB, WETH[chainId]) ? isETFChain(chainId) ? 'DIS' : 'ETH' : currencyIdB}`}
                           >
-                            Receive {chainId && isETFChain(chainId) ? 'ETHF' : 'ETH'}
+                            Receive {chainId && isETFChain(chainId) ? 'DIS' : 'ETH'}
                           </StyledInternalLink>
                         ) : null}
                       </RowBetween>

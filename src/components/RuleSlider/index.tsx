@@ -163,10 +163,10 @@ export default function RightItems({
                             </ModalRowCenter>
                             <ModalLineText fontWeight={300}>
                                 {t('singleTitle')}
-                                <a href='http://OriSwap.mikecrm.com/wjLIUNJ' target='_blank' rel="noopener noreferrer" style={{
+                                <a href='http://diswap.mikecrm.com/wjLIUNJ' target='_blank' rel="noopener noreferrer" style={{
                                     marginLeft: '16px',
                                     wordBreak: 'break-all',
-                                }}>http://OriSwap.mikecrm.com/wjLIUNJ</a>
+                                }}>http://diswap.mikecrm.com/wjLIUNJ</a>
                             </ModalLineText>
                             <ModalLineText fontWeight={300}>
                                 {t('singleRules2')}

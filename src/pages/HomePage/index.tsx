@@ -620,7 +620,7 @@ export default function Mining() {
             <NormalText>{t('currentOutput')}</NormalText>
             <BoardNumber>
               <Value value={infoData.mintDogTokens} />
-              ORI
+                DIS
             </BoardNumber>
           </BoardRoomItemWapper>
           <BoardRoomItemWapper>
@@ -665,7 +665,7 @@ export default function Mining() {
           <DogDataRow>
             <DogDataLabel fontSize={16}>{t('dogTotalDestory')}</DogDataLabel>
             <DogDataValue fontSize={16}>
-              <Value value={dogDestory} /> ORI
+              <Value value={dogDestory} /> DIS
                ≈ $ 
               <Value value={dogDestoryAmount} />
             </DogDataValue>
@@ -678,7 +678,7 @@ export default function Mining() {
             </DogDataValue>
           </DogDataRow>
           <DogDataRow>
-            <DogDataLabel fontSize={16}>ORI {t('halvingCycle')}</DogDataLabel>
+            <DogDataLabel fontSize={16}>DIS {t('halvingCycle')}</DogDataLabel>
               <DogDataValue fontSize={16}>
                 {leftTime}
             </DogDataValue>
@@ -695,7 +695,7 @@ export default function Mining() {
             <BoardRow>
               <BoardLable fontSize={16}>{t('stake')}</BoardLable>
               <BoardValue fontSize={18}>
-                ORI
+                  DIS
               </BoardValue>
             </BoardRow>
             <BoardRow>
@@ -766,7 +766,7 @@ export default function Mining() {
               pools.map((item, index) => (
                 <TableRow key={index}>
                   <TableColumn>{`${item.tokenName0}${item.tokenName1 && `/${item.tokenName1}`}`}</TableColumn>
-                  <TableColumn style={{ textAlign: 'center' }}>ORI</TableColumn>
+                  <TableColumn style={{ textAlign: 'center' }}>DIS</TableColumn>
                   <TableColumn style={{ textAlign: 'right' }}>
                     <Value value={item.realApy} />%
                   </TableColumn>

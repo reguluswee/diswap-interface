@@ -1,16 +1,16 @@
 {
-  "name": "ETHF Mainnet NFT",
+  "name": "DIS Mainnet NFT",
   "version": {
     "major": 1,
     "minor": 1,
     "patch": 2
   },
   "keywords": [
-    "ETHF",
+    "DIS",
     "tokens",
     "mainnet"
   ],
-  "logoURI": "https://www.oriswap.xyz/images/ethf-mainnet-logo.png",
+  "logoURI": "https://www.diswap.xyz/images/ethf-mainnet-logo.png",
   "timestamp": "2022-12-22T14:46:35+0000",
   "tokens": [
     {

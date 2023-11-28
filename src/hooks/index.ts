@@ -93,7 +93,7 @@ export function useGetSymbol(chainId: ChainId | undefined, currency: Currency | 
   useEffect(() => {
     if (chainId && currency && currency.symbol) {
        if(isETFChain(chainId) && currency.symbol === 'ETH' && currency.name === 'Ether'){
-        setSymbol('ETHF')
+        setSymbol('DIS')
       }else{
         setSymbol(currency.symbol)
       }

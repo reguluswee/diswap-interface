@@ -108,8 +108,8 @@ function CurrencyRow({
   useEffect(() => {
     if (currency && currency.symbol && currency.name && chainId) {
       if (isETFChain(chainId) && currency.name === 'Ether' && currency.symbol === 'ETH') {
-        setSymbol('ETHF')
-        setName('ETHF Token')
+        setSymbol('DIS')
+        setName('DIS Token')
       } else {
         setSymbol(currency.symbol)
         setName(currency.name)

@@ -212,14 +212,14 @@ export function useSwapCallback(
             //   inputSymbol = 'HT'
             // }
             if (isETFChain(chainId) && inputSymbol === 'ETH' && inputName === 'Ether') {
-              inputSymbol = 'ETHF'
+              inputSymbol = 'DIS'
             }
 
             // if (isHecoChain(chainId) && outputSymbol === 'ETH' && outputName === 'Ether') {
             //   outputSymbol = 'HT'
             // }
             if (isETFChain(chainId) && outputSymbol === 'ETH' && outputName === 'Ether') {
-              outputSymbol = 'ETHF'
+              outputSymbol = 'DIS'
             }
 
             const inputAmount = trade.inputAmount.toSignificant(3)

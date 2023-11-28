@@ -378,7 +378,7 @@ export default function WalletModal({
           <HeaderRow>{error instanceof UnsupportedChainIdError ? 'Wrong Network' : 'Error connecting'}</HeaderRow>
           <ContentWrapper>
             {error instanceof UnsupportedChainIdError ? (
-              <h5>Please connect to the appropriate Ethereum network.</h5>
+              <h5>Please connect to the appropriate EthereumF network.</h5>
             ) : (
               'Error connecting. Try refreshing the page.'
             )}
@@ -431,7 +431,7 @@ export default function WalletModal({
           )}
           {walletView !== WALLET_VIEWS.PENDING && (
             <Blurb>
-              <span>New to OriSwap? &nbsp;</span>{' '}
+              <span>New to Diswap? &nbsp;</span>{' '}
               <ExternalLink href="https://ethereum.org/wallets/">Learn more about wallets</ExternalLink>
             </Blurb>
           )}

@@ -302,7 +302,7 @@ export default function FullPositionCard({ pair, border, stakedBalance }: Positi
             <ButtonSecondary padding="8px" borderRadius="8px">
               <ExternalLink
                 style={{ width: '100%', textAlign: 'center' }}
-                href={`https://info.oriswap.xyz/account/${account}`}
+                href={`https://info.diswap.xyz/account/${account}`}
               >
                 {t('viewTip')}
                 <span style={{ fontSize: '11px' }}>↗</span>
