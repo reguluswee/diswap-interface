@@ -1,4 +1,4 @@
-# DogeSwap Interface
+# DiSwap Interface
 
 ## Development
 
